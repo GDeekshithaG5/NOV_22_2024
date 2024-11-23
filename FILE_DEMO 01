@@ -1,0 +1,11 @@
+#creating a file to write some text over the file
+fptr=open("C:/Users/Public/nov22.txt","w")
+fptr=open("C:/Users/Public/nov22.doc","w")
+fptr=open("C:/Users/Public/nov22.xls","w")
+fptr=open("C:/Users/Public/nov22.csv","w")
+fptr=open("C:/Users/Public/nov22.mp4","w")
+fptr=open("C:/Users/Public/nov22.png","w")
+#write a code to write some text to the desired file
+fptr.write("welcome sreeyas world\n")
+print("text has been written to the file")
+fptr.close()
