@@ -1,0 +1,2 @@
+with open("C:/Users/Public/venkat.txt","w") as fptr:
+    fptr.write("welcome")
