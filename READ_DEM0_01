@@ -1,0 +1,4 @@
+fptr= open("C:/Users/Public/sum.txt","r")
+data=fptr.read()
+print("data:",data)
+fptr.close()
