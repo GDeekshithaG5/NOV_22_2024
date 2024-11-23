@@ -1,0 +1,17 @@
+FILES CONCEPT:
+-------------
+define file: file is storage media that holds data permanently.
+--broadly 2 types of files
+1.text files
+  .doc,.txt,.xlsx,.py,.c,.html,etc.
+2.Binary files
+  .exe,.png,.jpeg, etc..
+--operations u apply on a file
+1.create
+2.open
+3.read
+4.write
+5.update
+6.delete
+7.close
+8.rename
