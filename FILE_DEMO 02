@@ -1,0 +1,5 @@
+with open("C:/Users/Public/Deekshitha.txt","w") as fptr:
+    for i in range(10):
+        fptr.write("welcome")
+fptr.close()
+
