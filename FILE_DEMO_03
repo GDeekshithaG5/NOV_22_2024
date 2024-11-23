@@ -1,0 +1,9 @@
+#Write a python program using files to write sum of 2 numbers result to desired files
+'''fptr= open("C:/Users/Public/sum.txt","w")'''
+with open("C:/Users/Public/sum.txt","w") as fptr:
+    x = int(input("Type a number: "))
+    y = int(input("Type a number: "))
+    sum= x+y
+    fptr.write(f"sum is{sum}\n")
+fptr.close()
+print("text has been written to the file")
